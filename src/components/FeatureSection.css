@@ -1,0 +1,132 @@
+.feature-container{
+    padding-top: 35px;
+    
+   
+}
+
+.assessment {
+    color:#1C4980;
+}
+
+.card-with-bg {
+    background-color:#F6F8FA;
+    border: 1px solid #ddd; /* Set border properties */
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Set shadow properties */
+  }
+
+
+.box-left {
+    position: absolute;
+  margin-left: 10px;
+  border-radius: 25%;
+   padding: 20px;
+  border:1px solid #ddd;
+  background-color:#F6F8FA;
+  
+}
+
+.dot-right {
+ margin-left: 370px;
+ 
+}
+
+.card-title {
+    margin-top: 30px;
+    margin-bottom: 10px;
+    font-size: 25px;
+  }
+
+  .card-text {
+    color:#1C4980;
+  }
+
+  .card-text::after {
+    content: ''; /* Create the vertical line using pseudo-element */
+    position: absolute;
+   
+    bottom: auto;
+   /* Position the line to the right of the title */
+    width: 3px;
+    height: 30px;
+    border-color: #f2f2f5;
+    background-color: #f2f2f5; 
+    margin-left: 15px; 
+    
+  }
+
+  .calender {
+    width: 20px;
+    position: absolute;
+    margin-left: 70px;
+    top: 133px;
+
+  }
+
+  .tag{
+    position: absolute;
+    margin-left: 100px;
+    top: 129px;
+    color:#1C4980;
+    font-size: 20px;
+   
+    
+  }
+
+  .divider-horizontal {
+    width: 100%;
+    height: 1px;
+    background-color: #ccc;
+    margin-top: 40px;
+    
+  }
+
+  .footer {
+    
+    color:#1C4980;
+    display: flex;
+    
+  }
+
+  .duration{
+  
+    margin-left: 20px;
+  }
+
+  .questions{
+    margin-left: 30px;
+     
+  }
+
+  .button{
+   
+    color:#1C4980;
+     font-size: 20px;
+    border-radius: 100px;
+    cursor: pointer;
+   border: 1px solid #1C4980;
+    margin-left: 50px;
+    width: 140px;
+    height: 50px;
+    font-size: 25px;
+  }
+
+  .button-add{
+    background-color: #fff;   
+    border-radius: 50%;
+    cursor: pointer;
+   border: 1px solid #fff;
+    margin-left: 0px;
+    margin-top: 2px;
+    width: 80px;
+    height: 80px;
+   
+  }
+
+  
+  
+  
+  .share {
+   padding: 10px;
+  width: 45px;
+  } 
+ 
