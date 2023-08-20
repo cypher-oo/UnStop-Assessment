@@ -1,0 +1,86 @@
+.assessment-container {
+    background-color: #fff; 
+      
+    height:100vh;
+    padding: 35px;
+    margin-left: 280px ;
+    align-items: center;
+   
+    
+  }
+ 
+  .assessment{
+    color:#1C4980;
+  }
+
+ 
+  
+  .card-title{
+    color:#1C4980;
+    font-size: 25px;
+   
+  }
+
+ 
+
+  .parallel-line {
+    display: flex;
+    align-items: center;
+  }
+
+  .text-tag {
+   position: absolute;
+   top:95px;
+   left:100px;
+  
+  } */
+  .button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+    border: none;
+    border-radius: 20px;
+    width: 70px;
+    margin-left: 5px;
+    height: 60px;
+    
+    background-color: #f2f2f5;
+    color: white;
+  }
+  /* .vertical-line {
+    width: 2px;
+    height: 30px;
+    background-color: #ccc;
+    margin: 0 20px; 
+  } */
+  .green {
+    color: green;
+
+  }
+
+  .total {
+    position: absolute;
+    z-index: 1;
+  border-radius: 25%;
+   padding: 20px;
+  border:1px solid #ddd;
+  background-color:#F6F8FA;
+  width: 35px;
+  height: 35px;
+  
+  }
+  .text-tag::after{
+    content: ''; /* Create the vertical line using pseudo-element */
+    position: absolute;
+   
+    bottom: auto;
+   /* Position the line to the right of the title */
+    width: 3px;
+    height: 30px;
+    border-color: #f2f2f5;
+    background-color: #f2f2f5; 
+    margin-left: 15px; 
+  }
+
+  
